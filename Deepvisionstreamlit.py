@@ -16,7 +16,7 @@ st.title("Click Run to start Live Feed")
 run = st.checkbox('Run')
 FRAME_WINDOW = st.image([])
 camera = cv2.VideoCapture(0)
-loaded_model= load_model(r"C:\Users\USER\Downloads\my_model.h5")
+loaded_model= load_model("my_model.h5")
 font = cv2.FONT_HERSHEY_SCRIPT_COMPLEX
 
 while run:
