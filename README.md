@@ -1,4 +1,4 @@
-"# sign_detection" 
+# sign_detection
 
 This project aims in detecting whether a person is using sign language or not in a live stream.
 Here I have created my own dataset.
